@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 
 
 class Chat extends StatefulWidget {
+  const Chat({super.key});
+
   @override
   _ChatState createState() => _ChatState();
 }
@@ -54,7 +56,7 @@ class _ChatState extends State<Chat> {
                 width: 15,
               ),
               Expanded(
-                child: Container(
+                child: SizedBox(
                   height: 100,
                   child: ListView.builder(
                     physics: const BouncingScrollPhysics(),
@@ -142,7 +144,7 @@ class _ChatState extends State<Chat> {
       onTap: () {
         Navigator.of(context).push(
           MaterialPageRoute(
-            builder: (context) => ChatPage(),
+            builder: (context) => const ChatPage(),
           ),
         );
       },
@@ -436,7 +438,7 @@ class Avatar extends StatelessWidget {
   final double size;
   final image;
   final EdgeInsets margin;
-  Avatar({this.image, this.size = 50, this.margin = const EdgeInsets.all(0)});
+  const Avatar({super.key, this.image, this.size = 50, this.margin = const EdgeInsets.all(0)});
   @override
   Widget build(BuildContext context) {
     return Padding(
