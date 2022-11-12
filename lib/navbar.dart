@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'news/pages/home.dart';
-import 'screen/pages/chat.dart';
-import 'screen/pages/profile.dart';
+import 'screen/pages/news/pages/home.dart';
+import 'screen/pages/chat/chat.dart';
+import 'screen/pages/profile/profile.dart';
 
 class NavigationBarPage extends StatefulWidget {
   const NavigationBarPage({super.key});
@@ -15,7 +15,7 @@ class _NavigationBarPageState extends State<NavigationBarPage> {
   int currentindex = 0;
   List<Widget> screens = [
     const News(),
-    Chat(),
+    const Chat(),
     const Profile(),
   ];
   @override
