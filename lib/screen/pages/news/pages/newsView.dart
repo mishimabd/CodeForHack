@@ -18,7 +18,7 @@ class NewsViewPage extends StatelessWidget {
               ClipRRect(
                 child: Image(
                   fit: BoxFit.cover,
-                  image: NetworkImage(newsPost.image),
+                  image: AssetImage(newsPost.image),
                   height: size.height,
                   width: size.width,
                 ),

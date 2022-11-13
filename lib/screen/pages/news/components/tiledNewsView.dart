@@ -31,7 +31,7 @@ class TiledNewsView extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 ClipRRect(
-                  child: Image.network(
+                  child: Image.asset(
                     newsItem.image,
                     width: 100,
                     height: 100,

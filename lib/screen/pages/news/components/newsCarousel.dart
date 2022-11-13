@@ -25,14 +25,14 @@ class NewsCarousel extends StatelessWidget {
                     borderRadius: BorderRadius.circular(20),
                     child: Image(
                       fit: BoxFit.cover,
-                      image: NetworkImage(news.image),
+                      image: AssetImage(news.image),
                       height: 250,
                       // width: MediaQuery.of(context).size.width,
                     ),
                   ),
                   Container(
                     width: MediaQuery.of(context).size.width,
-                    margin: const EdgeInsets.symmetric(horizontal: 5.0),
+                    margin: const EdgeInsets.symmetric(horizontal: 8.0),
                     decoration: BoxDecoration(
                         gradient: const LinearGradient(
                           begin: Alignment.topCenter,

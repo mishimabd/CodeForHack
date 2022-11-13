@@ -8,7 +8,7 @@ class StaticValues {
         descrption:
             "Касым-Жомарт Токаев регулярно призывает к ужесточению наказаний за домашнее насилие — например, совсем недавно, в сентябре, в своём обращении к народу, или в аналогичном обращении, сделанном в 2019 году, когда наряду с признанием проблемы президент поручил правительству принять меры. С тех пор случаи домашнего насилия только участились, передает ranking.kz. Власти Казахстана испробовали множество способов борьбы с домашним насилием. Эти попытки включали в себя, в числе прочего, декриминализацию преступлений и выписывание виновникам предупреждений, что получило репутацию «неадекватных санкций»",
         image:
-            "https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2016/01/26/160126134338_domestic_violence_624x415_istock_nocredit.jpg",
+            "assets/images/news3.jpg",
         source: "The Freedom Broker",
         sourceImage:
             "https://yt3.ggpht.com/ytc/AAUvwngucVKXeH6T2_0PfZbyB2XJ3Toff5CfTnZ1alshs_4=s900-c-k-c0x00ffffff-no-rj",
@@ -17,7 +17,7 @@ class StaticValues {
         title:
             "\"Я хочу, чтобы насилие стало меткой позора для семейных дебоширов\" - Салтанат Турсынбекова",
         image:
-            "https://baigenews.kz/storage/storage/news/2022/11/09/mainphoto/111671/1200xauto_TEvQo56S2i0s21x0bxV0TaeslbL4uh2H6zWkSxQ6.jpg.webp",
+            "assets/images/news2.jpg",
         source: "Baige News",
         sourceImage: "https://static.toiimg.com/photo/47529300.cms",
         time: "3 дня назад",
@@ -26,7 +26,7 @@ class StaticValues {
     News(
         title: "Буллинг, кибербуллинг и педофилия: как защитить ребенка от опасности",
         image:
-            "https://zakon-img1.object.pscloud.io/1692e021733a45f08e84f61a1cd919f1.jpeg",
+            "assets/images/news1.jpeg",
         source: "Zakon Kz",
         sourceImage:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYl2TxpCA39qFBqA2U2vVYj005OIalFxAwkg&usqp=CAU",
